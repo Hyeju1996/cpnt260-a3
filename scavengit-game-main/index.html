@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scavengit</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+  <main class="container mx-auto grid-flow-row">
+    <header>
+      <h1>Scavengit Bug Hunt</h1>
+      <p>A game for learning how to collaborate on git</p>
+      <!--Put your team member names and roles in here-->
+      <div>
+        <h2>Players</h2>
+      </div>
+    </header>
+    <!--possibly make this a nav with links -->
+    <section>
+      <h2>Objectives</h2>
+      <ul>
+        <li>Make Pull Requests</li>
+        <li>Set up Collaborators</li>
+        <li>Fix Merge Conflicts</li>
+        <li>Use a gitignore</li>
+      </ul>
+      <p>This game is meant to be played in groups of 3-4. You will be working in your fork of this repo, adding one
+        another as collaborators, practicing project management. and solving merge conflicts</p>
+    </section>
+
+    <section>
+      <h2>Prepare your Project</h2>
+      <ol>
+        <li>Create a markdown file named 'commits' in your fork</li>
+        <li>Make git ignore the file when you push changes</li>
+        <li>Add your name under to the header under the h1</li>
+        <li>Copy the links to the git commit into your untracked markdown file</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Git Collaboration</h2>
+      <p>You will have 2 different types of collaborators</p>
+      <dl>
+        <dt>Collaborators with commit access</dt>
+        <dd>These people have been given commit access through the github repo's settings. They can write directly to
+          the repo without making PRs</dd>
+        <dt>Contributors without commit access</dt>
+        <dd>These people must make pull requests from their fork to your repo in order to make changes.</dd>
+      </dl>
+      <h3>Setup Tasks</h3>
+      <ol>
+        <li>Add your own name with the title 'maintainer'</li>
+        <li>Add one group member as a collaborator</li>
+        <li>The other group member will fork and contribute through PRs</li>
+        <li>You must also be added as a collaborator to 1 repo and contribute with PRs to another</li>
+        <li>Add the names of the collaborator and contributor under your own in the header</li>
+        <li>Push changes</li>
+        <li>Copy the link to the git commit into your untracked markdown file</li>
+      </ol>
+      <h3>Rules Outline</h3>
+      <ol>
+        <li>As a team decide on 3 rules for how your team will use git. ie: always pull before push, min/max word count
+          for commit messages, review process for PRs</li>
+        <li>Commit and push</li>
+        <li>Add the commit link to the untracked markdown file</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Pull Requests and Code Edits</h2>
+      <p>Here's where things get messy</p>
+      <ul>
+        <li>Make a change to the html on both of your partner's pages.</li>
+        <li>Make a change to the css on both of your partner's pages</li>
+        <li>Review and accept the PR if it meets your team's rules</li>
+        <li>Copy the commit link from your collaborator's change into your untracked markdown file</li>
+        <li>Copy the commit link from your contributor's pull request into your markdown file</li>
+        <li>Copy the commit links for both your commit and PR</li>
+      </ul>
+      <h3>Merge Conflicts!</h3>
+      <p>If you experienced and resolved a merge conflict in the above steps, then you're already done this part</p>
+      <p>Otherwise, force a merge conflict in your repo and resolve it. Then copy the commit link into your untracked
+        changes file</p>
+    </section>
+    <section>
+      <h2>Endgame</h2>
+      <ul>
+        <li>Remove your markdown file from the gitignore and add it to your repo.</li>
+        <li>Tally up all of the git commits listed in your markdown file</li>
+        <li>rename the markdown file to have the number of commits in the title</li>
+        <li>In the README, add your repo link and github pages link under the first heading</li>
+        <li>In your README, add the heading "Attributions" and add your team members names with links to their github
+          accounts</li>
+      </ul>
+      <h3>Submission</h3>
+      <ul>
+        <li>Zip your project folder and submit it to brightspace</li>
+        <li>Add your github repo link and github pages link to the submission text box</li>
+        <li>Submit your assignment</li>
+      </ul>
+      <p>Grading will be based on git commits documented and <strong>labelled</strong> in your commits markdown file</p>
+    </section>
+  </main>
+</body>
+
+</html>
