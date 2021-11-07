@@ -1,0 +1,11 @@
+{
+  "name": "in-class-main",
+  "version": "1.0.0",
+  "description": "Tony's in class code  <a href=\"https://github.com/sait-wbdv/in-class\">In class</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

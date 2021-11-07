@@ -1,0 +1,33 @@
+body {
+    background-color: #fc9bbb;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox {
+    font-family: sans-serif;
+    padding-right: 6rem;
+}
+
+.img-box {
+    max-width: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*fonts*/
+
+h1 {
+    font-size: clamp(3rem, 10vw, 30rem);
+}
+
+p {
+    font-size: clamp(1.4rem, 10vw, 1.8rem);
+}
